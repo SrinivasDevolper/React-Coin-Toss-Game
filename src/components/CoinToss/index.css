@@ -1,0 +1,59 @@
+.bg-container {
+  background-image: linear-gradient(to right, #ffda6f, #e09d2f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  height: 100vh;
+  text-align: center;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+}
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.para {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin: 15px;
+}
+img {
+  width: 180px;
+  margin-bottom: 15px;
+}
+button {
+  background-color: #ffda6f;
+  color: #a35200;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.score-cont {
+  margin-top: 15px;
+  display: flex;
+}
+
+.score-cont p {
+  margin: 10px;
+  color: #475569;
+  font-weight: 00;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
